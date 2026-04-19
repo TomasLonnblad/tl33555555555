@@ -14,7 +14,7 @@ const people = [
 
 export default function AnimatedTooltipPreview() {
   return (
-    <div className="flex h-[20rem] align-middle absolute bottom-0 left-40 h-16 w-16">
+    <div className="flex h-[20rem] align-middle absolute bottom-0 left-40  w-16">
       <AnimatedTooltip items={people} />
     </div>
   );
