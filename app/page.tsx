@@ -7,14 +7,14 @@ import ShaderBackground from "@/components/shader-background"
 
 export default function ShaderShowcase() {
   return (
-  <main>
+ 
     <ShaderBackground>
       <Component />
       <Header />
       <HeroContent />
       <PulsingCircle />
     </ShaderBackground>
-    </main>
+    
     
   )
 }
